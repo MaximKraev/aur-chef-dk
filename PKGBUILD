@@ -30,4 +30,5 @@ package() {
   for binary in $binaries; do
     ln -sf /opt/chefdk/bin/$binary $pkgdir/usr/bin/ || error_exit "Cannot link $binary to /usr/bin"
   done
+  chown -R 0:0 $pkgdir
 }
