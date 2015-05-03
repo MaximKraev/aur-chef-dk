@@ -2,7 +2,7 @@
 
 pkgname=chef-dk
 pkgver=0.5.1
-pkgrel=1
+pkgrel=2
 _ubuntuver=raring
 _ubunturel=4
 pkgdesc="The Chef Development Kit contains everything you need to start using Chef along with the tools essential to managing the code that runs your business."
